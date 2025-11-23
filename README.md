@@ -9,7 +9,7 @@
 
 **A comprehensive, full-stack audit management system for tracking programs, schedules, audit sessions, observations, problems, corrective actions, and approvals.**
 
-[Features](#-features) • [Tech Stack](#-technology-stack) • [Installation](#-installation) • [Documentation](#-documentation) • [Contributing](#-contributing)
+[🌐 Live Demo](https://audit-management-chi.vercel.app/) • [📱 Frontend Repo](https://github.com/Rakibulislam-emon/Audit_tracker_frontend) • [⚙️ Backend Repo](https://github.com/Rakibulislam-emon/Audit_tracker_backend) • [Features](#-features) • [Tech Stack](#-technology-stack) • [Installation](#-installation)
 
 </div>
 
@@ -224,11 +224,31 @@ The system uses a revolutionary **Universal CRUD** architecture:
 - **Cloudinary** account (for file uploads)
 - **npm** or **yarn** package manager
 
-### Step 1: Clone the Repository
+### Step 1: Clone the Repositories
+
+This is a monorepo structure. You'll need to clone both frontend and backend repositories:
 
 ```bash
-git clone https://github.com/your-username/audit-tracker.git
+# Clone Frontend Repository
+git clone https://github.com/Rakibulislam-emon/Audit_tracker_frontend.git audit-frontend
+cd audit-frontend
+
+# Clone Backend Repository (in a separate directory)
+cd ..
+git clone https://github.com/Rakibulislam-emon/Audit_tracker_backend.git audit-backend
+cd audit-backend
+```
+
+**Or** if you prefer to work with both in a single directory:
+
+```bash
+# Create project directory
+mkdir audit-tracker
 cd audit-tracker
+
+# Clone both repositories
+git clone https://github.com/Rakibulislam-emon/Audit_tracker_frontend.git audit-frontend
+git clone https://github.com/Rakibulislam-emon/Audit_tracker_backend.git audit-backend
 ```
 
 ### Step 2: Backend Setup
@@ -551,7 +571,7 @@ DELETE /api/proofs/:id              # Delete proof
 
 ### Complete API Reference
 
-See [Backend README](audit-backend/README.md) for detailed API documentation.
+See [Backend README](https://github.com/Rakibulislam-emon/Audit_tracker_backend) for detailed API documentation.
 
 ---
 
@@ -712,6 +732,12 @@ We welcome contributions! Please follow these steps:
 This project is licensed under the **ISC License**.
 
 ---
+
+## 🔗 Links
+
+- **🌐 Live Demo**: [https://audit-management-chi.vercel.app/](https://audit-management-chi.vercel.app/)
+- **📱 Frontend Repository**: [https://github.com/Rakibulislam-emon/Audit_tracker_frontend](https://github.com/Rakibulislam-emon/Audit_tracker_frontend)
+- **⚙️ Backend Repository**: [https://github.com/Rakibulislam-emon/Audit_tracker_backend](https://github.com/Rakibulislam-emon/Audit_tracker_backend)
 
 ## 👥 Team
 
