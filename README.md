@@ -286,7 +286,7 @@ NODE_ENV=development
 # Database
 MONGODB_URI=mongodb://localhost:27017/audit-tracker
 # Or MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/audit-tracker
+# MONGODB_URI=
 
 # JWT Configuration
 JWT_SECRET=your_super_secret_jwt_key_here_min_32_chars
